@@ -1,0 +1,52 @@
+DO CZEGO S£U¯Y PROGRAM
+
+Program DxfModeGridSnap automatycznie "doci¹ga" koñce prêtów do odpowiednich wêz³ów na modelu dxf. 
+Po tej operacji poprawiony plik importujemy do Robota i cieszymy siê z dalszej bezproblemowej obróbki modelu :) 
+
+Je¿eli z jakiegoœ powodu osiowy schematu konstrukcji zawiera b³êdy geometrii, tzn. koñce prêtów nie schodz¹ siê w jednym wêŸle (punkcie), to pozaimportowaniu takiego modelu do Robota, musimy te b³êdy poprawiæ.
+Mo¿emy to zrobiæ rêcznie jeszcze w pliku "dxf", w Robocie lub zrobiæ to automatycznie za pomoc¹ DxfModeGridSnap 
+
+
+
+KRÓTKA INSTRUKCJA OBS£UGI PROGRAMU:
+
+Aby uruchomiæ poszczególne funkcje (1-7) nale¿y wpisaæ z klawiatury odpowieni¹ cyfrê i zatwierdziæ "Enterem" 
+Powrót do g³ównego menu za pomoc¹ "Enteru"
+
+1 - WYBIERZ KATALOG
+
+Nale¿y wpisaæ lub skopiowaæ œcie¿kê do katalogu w którym znajduje siê plik DXF z modelem, w którym chcemy zaokr¹gliæ wspó³rzêdne.
+Uwaga: Aby wkleiæ œcie¿kê trzeba klikn¹æ prawy przyciskiem myszy na górny pasek okna / Edytuj / Wklej1
+  
+
+2 - WYBIERZ PLIK
+
+Wpisujemy nazwê pliku ³¹cznie z rozszerzeniem "dxf", w którym znajduje sie nasz model
+
+3 - DEFINIUJ GRID
+
+Okreœlamy wielkoœæ "oczka" siatki (Najlepiej wybraæ wartoœæ z dok³adnoœci¹ do 10mm)
+Dobieraj¹c powy¿sz¹ wielkoœæ mo¿na kierowaæ siê dwoma warunkami:
+- w miarê mo¿liwoœci jak najmniejsza wartoœæ
+- wartoœæ wiêksza ni¿ odleg³oœæ miêdzy koñcem prêta i w³aœciwym wêz³em
+
+4 - POKA¯ AKTUALNE DANE
+
+Wyœwietla dane na temat katalodu i pliku na którym pracujemy
+
+5 - WYKONAJ ZAOKR¥GLONIE WSPÓ£RZÊDNYCH W WYBRANYM PLIKU
+
+Po wybraniu "5", program stworzy kopiê pliku dxf i wykona operacjê "doci¹gania" wêz³ów na schemacie
+
+6 - O PROGRAMIE
+
+Informacje o programie
+
+7 - EXIT
+
+Wyjœcie z programu
+
+
+UWAGI!!!
+Je¿eli po wykonaniu "doci¹gania" wêz³ów na schemacie nadal s¹ b³êdy to oznacza, ¿e przyjêliœmy zbyt ma³¹ wartoœæ "grid".
+Nale¿y j¹ zwiêkszyæ i powtórzyæ pkt.5 
